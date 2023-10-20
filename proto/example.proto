@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package example;
+
+// Define your service
+service ExampleService {
+  rpc SayHello (HelloRequest) returns (HelloResponse);
+}
+
+// Define your message types
+message HelloRequest {
+  string name = 1;
+}
+
+message HelloResponse {
+  string greeting = 1;
+}

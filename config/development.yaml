@@ -1,0 +1,7 @@
+port: "8989"
+listenAddress: "0.0.0.0"
+databaseHost: "0.0.0.0"
+databasePort: "3306"
+databaseUser: "root"
+databaseName: "test"
+pageSize: 5
